@@ -1,0 +1,15 @@
+name: EchoShards
+version: '1.0.0'
+main: ru.minefunland.echoshards.EchoShardsPlugin
+api-version: '1.21.11'
+load: POSTWORLD
+
+commands:
+  shard:
+    description: Управление осколками
+    usage: /shard give <id> | /shard reset <игрок>
+
+permissions:
+  echoshards.admin:
+    description: Доступ к админ-командам (reset)
+    default: op
